@@ -1,5 +1,6 @@
 import sys #used to manipulate different parts of python runtime env
 import logging
+from src.logger import logging
 
 def error_message_details(error,error_detail:sys):#whenever i get an error i want my custom error message, error detail would be oresent inside sys
     _,_,exc_tb=error_detail.exc_info() #exc_info would give me 3 details out of which the first two i am not interested in
